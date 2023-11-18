@@ -30,7 +30,7 @@ while True:
 
     bot_choice = choice[random.randint(0, 2)]
     print("Bot's Choice is: ", bot_choice)
-    print("Your choice is: " + player_choice)
+    print("Your Choice is: ", player_choice)
 
     if player_choice == bot_choice:
         print(draw_msg)
